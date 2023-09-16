@@ -15,7 +15,7 @@ public class Main {
         List<Long> time = new ArrayList<>();
 
         /*строим гистограмму*/
-        Drawer.displayCharacterFrequencyDistribution(generator.createPassword(1000));
+        Drawer.displayCharacterFrequencyDistribution(generator.createPassword(100));
 
         /*получаем 6 паролей разной длинны, вычисляем время подбора и строим график*/
         for (int i = 0; i < 6; i++) {
